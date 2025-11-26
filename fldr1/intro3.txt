@@ -1,0 +1,9 @@
+Intro to UNIX
+Key Features of Unix
+- Multiuser system: Multiple users can work on the same machine simultaneously, each with their own environment and permissions.
+- Multitasking capability: It can run several processes at once through efficient CPU scheduling.
+- Command-line interface (CLI): Traditionally operated via text commands, though graphical interfaces (like X Window System or Quartz on macOS) are also supported.
+- Portability: Written largely in C, making it easier to adapt to different hardware.
+- Security and reliability: Designed with strong user permissions and process isolation, ensuring long-term stability.
+
+
