@@ -1,1 +1,62 @@
 Intro to Git
+Git/GitHub
+
+Git add: for adding changes in a specific file in the staging area.
+Command: git add filename
+                    git add .
+
+
+Git Commit: for transferring changes from the staging area into the local repository, along with a commit message
+Command: git commit -m "message" 
+
+
+Git push: to push to the remote repo
+	Command: git push
+
+
+Git pull: to pull changes from the remote repo to the local repo
+Command: git pull
+
+
+ Git Init: to initialise a repo
+Command: git init
+
+
+Git clone: To clone a repo
+Command: git clone
+
+
+Creating a branch: To create a new branch
+Command: git branch BranchName
+
+
+Switching Branch: To switch branches
+Command: git checkout BranchName
+
+
+Creating and immediately switching into a new branch:
+Command: 	
+
+
+View all branches:
+Command: git branch
+
+
+Delete a Branch:
+Command: git branch -d BranchName
+
+Push first time in a new branch:
+Command: git push -u origin BranchHome
+
+
+ Push in a branch (not the first time)
+Command: git push origin BranchName
+
+
+Git merge (branches): To merge from the source branch to the target branch
+Command: git merge SourceBranch
+Note: This command should be only entered while in the target branch (It is the branch where changes ARE TO BE merged)
+
+
+Git merge (commits): To merge changes in a commit instead of merging the whole branch.
+Command:  git cherry-pick CommitHash
